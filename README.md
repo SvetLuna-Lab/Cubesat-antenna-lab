@@ -1,6 +1,7 @@
 # CubeSat Antenna Lab — Antennas-first (1U)
 
-[![CI](https://github.com/SvetLuna-Lab/cubesat-antenna-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/SvetLuna-Lab/cubesat-antenna-lab/actions/workflows/ci.yml)
+[![CI](https://github.com/SvetLuna-Lab/cubesat-antenna-lab/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SvetLuna-Lab/cubesat-antenna-lab/actions/workflows/ci.yml)
+
 
 Antenna-first engineering lab for a 1U CubeSat.
 This repository builds a reproducible antenna subsystem baseline and keeps it honest with tests and CI:
