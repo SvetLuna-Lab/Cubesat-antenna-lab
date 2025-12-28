@@ -1,0 +1,16 @@
+antenna:
+  type: "uhf_monopole_quarterwave"
+  freq_hz: 437500000              # placeholder UHF
+  velocity_factor: 0.95           # effective VF (material + feed effects)
+  end_effect: 0.97                # simple correction factor (engineering knob)
+  trim_margin_m: 0.02             # add extra length for trimming during tuning
+
+system:
+  source_impedance_ohm: 50.0
+  estimated_load_r_ohm: 36.5       # quarter-wave monopole over ground (order)
+  estimated_load_x_ohm: 0.0        # baseline simplification for v0.1.0
+  prefer_lowpass: true             # L-network topology preference
+
+feedline:
+  coax_length_m: 0.20
+  coax_loss_db_per_m: 0.40         # placeholder; verify per cable and frequency
