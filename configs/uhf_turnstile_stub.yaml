@@ -1,0 +1,4 @@
+antenna:
+  type: "uhf_turnstile_stub"
+  freq_hz: 437500000
+  note: "Stub profile for v0.2+ trade study; not implemented in code yet."
