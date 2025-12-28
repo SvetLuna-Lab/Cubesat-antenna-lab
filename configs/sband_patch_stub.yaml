@@ -1,0 +1,6 @@
+antenna:
+  type: "sband_patch_stub"
+  freq_hz: 2250000000
+  substrate_eps_r: 2.2
+  substrate_thickness_mm: 1.6
+  note: "Stub profile for v0.3+; patch sizing/modeling will be added later."
